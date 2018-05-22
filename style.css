@@ -1,1 +1,146 @@
 /* Your CSS styles go here */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    
+    width: 100%;
+    height: 80px;
+    background-color:#34495E;
+
+}
+.img{
+    width:60px;height:60px;border-radius: 50%;
+}
+.logo {
+    float:left;
+    padding:10px;
+    
+}
+.headingTitle{
+    color:aliceblue;
+    padding-top:20px;
+    float: left;
+}
+.container{
+    width: 100%;
+    height:100%;
+}
+.menubar{
+   margin-top: 20px;
+    float: right;
+    padding: 10px;
+    
+}
+.menulist{
+     list-style: none;
+    
+}
+.menulist>li {
+    padding: 10px;
+    display: inline;
+    color: aliceblue; 
+    
+}
+.menulist>li>a{
+    text-decoration: none;
+    color: aliceblue
+    
+}
+
+.menulist>li>a:hover{
+    background-color:cornflowerblue;
+    padding:10px;
+    border: 1px solid white; 
+    border-radius: 20%
+}
+.objective{
+    padding: 20px;
+    font-family:fantasy;
+    width: auto;
+    color: aliceblue;
+    background-color:yellowgreen ;
+    border: 1px solid red; 
+    margin: 10px 10px ;
+    height: 210px;
+;
+}
+
+.skill{
+    font-family:fantasy;
+    padding: 20px;
+    width: auto;
+    color: aliceblue;
+    background-color:#34495E ;
+    border: 1px solid red; 
+    margin: 10px 10px; 
+    height: 210px;
+}
+.portfolio{
+   font-family:fantasy;
+    color: aliceblue;
+    background-color: yellowgreen;
+    border: 1px solid red; 
+    margin: 10px 10px ; 
+    padding: 20px;
+}
+.education{
+    padding: 20px;
+    font-family:fantasy;
+    width: auto;
+     color: aliceblue;
+    background-color:#34495E ;
+    border: 1px solid red; 
+    margin: 10px 10px; 
+    height: 210px; 
+    
+}
+
+.contact{
+    padding: 20px;
+    font-family:fantasy;
+    width: ;
+     color: aliceblue;
+    background-color:yellowgreen;
+    border: 1px solid red; 
+    margin: 10px 10px; 
+    height: 400px; 
+    
+}
+.name{
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    width: 500px;
+    height: 20px;
+    padding:2px;
+    margin: 2px;
+}
+textarea{
+   border: 2px solid yellowgreen;
+    border-radius: 20px;
+    width: 470px;
+    height:100px;
+    padding:2px;
+    margin: 2px; 
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 20px;
+     color: white;
+    background-color:#34495E;
+   
+ 
+}
+
+.btn:hover{
+    width: 100px;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 20px;
+    color: white;
+    background-color:orange;
+}

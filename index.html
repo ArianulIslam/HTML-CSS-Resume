@@ -1,34 +1,41 @@
-<!-- your HTML goes here -->
+<!DOCTYPE html>
 <html>
-    <head>
-    <title>Online Resume</title>
- <link rel="stylesheet" href="style.css">
-    </head>
-<body style="padding:20px;">
-    <header>
-        <!--image-->
-         <div style="float:left;padding-right:20px"><img style="width:150px;height:150px;border-radius: 50%;" src="img/photo.jpg" alt="profile photo"></div>
-   <div>
-       <!--name & email-->
-     <h1>Arianul Islam</h1>
-    <h4>Web & App Developer</h4>
-     <p>Email: islamarianul@gmail.com</p>
-    </div>  
-    <hr>
-    </header>
-<section>
-    <br>
-    <!--objective-->
-    <article>
-    <ul><li><h1>Objective</h1></li></ul>
-    <p style="margin-left:25px">I am passionate to worked on any kind application.I love to learn something new everyday and love to share my knowledge and help my team members. </p>
-    </article>
     
-    <!--Skill-->
-    <article>
-        <div>
-    <ul><li><h1>Skill</h1></li></ul>
-     <ul style="margin-left:25px">
+    <head><title>Arianul Islam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        <div class="header">
+             <div class="logo"><img class="img" src="img/photo.jpg" alt="profile photo">
+            </div>
+    
+    <div class="headingTitle">
+       <!--name & email-->
+        <h2 >Arianul Islam</h2>
+        <p>Project Manager at Debuggers Studio </p>
+    </div>
+            <nav class="menubar">
+               <ul class="menulist">
+                  <li><i class="fa fa-home"></i> <a href="">Home</a></li>
+                  <li><i class="fa fa-file"></i> <a href="#portf">Portfolio</a></li>
+                  <li><i class="fa fa-phone"></i> <a href="#cform">Contact</a></li>
+               </ul> 
+            
+            
+            </nav>
+        
+        </div>
+        
+        <div class="objective">
+        <h2><center>Objective</center></h2>
+          <p>I am passionate to worked on any kind application.I love to learn something new everyday and love to share my knowledge and help my team members. </p>
+        </div>
+        <div class="skill">
+            <h2><center>Skill</center></h2>
+          <ul style="margin-left:25px">
         <li><b>Programming Languages  : </b> C++, C#, Java, Javascript, PHP, MATLab.</li>
         <li><b>Framework : </b>Laravel </li>
         <li><b>Database :</b> MySql, Google Firebase.</li>
@@ -37,15 +44,14 @@
         <li><b>Software:</b> MS Word,MS excell,MS Powerpoint</li>
         <li><b>language:</b>Bangla, English, French</li>       
         </ul>
+        
+        
         </div>
-    </article>
-    <!--Project & portfolio-->
-    
-    <article>
-      <div>
-           <ul><li><h1>Portfolio</h1></li></ul>
-        <p style="margin-left:25px">I have done couples of project past 2 years and worked on many platforms:</p>
-        <ol>
+        
+        <div class="portfolio" id="portf">
+          <h2><center>Portfolio</center></h2>
+       <center> <p style="margin-left:25px">I have done couples of project past 2 years and worked on many platforms:</p></center>
+        <ol style="margin-left:25px">
         <li><a href="https://play.google.com/store/apps/details?id=org.debuggers.anew.toura&hl=en" target="_blank">Toura</a>: Online Traveling App for Bangladeshi Travelers</li>
         <li><a href="#" target="_blank"> Virtual Energy Assistant </a>:A App for Control Electricity & reduce Waste for energy  </li>
         <li><a href="https://play.google.com/store/apps/details?id=com.debuggersstudio.travelcalculator&hl=en" target="_blank">Travel Calculator</a>: A calculator App for Travelers</li>
@@ -56,13 +62,10 @@
             <li><a href="http://debuggersstudio.com" target="_blank">debuggersstudio.com</a>: A website for IT Company </li>
         </ol>
     </div>
-    </article>
-        <!---Education Qualification-->
-    <article>
-        <div>
-      <ul><li><h1>Education Qualification </h1></li></ul>
-          <table>
-                    <tr>
+        <div class="education" >
+  <h2><center>Education Qualification</center></h2>
+          <table style="margin-left:25px">
+               <tr>
                 <th>Institute Name</th>
                 <th>Year</th>
                 <th>Result</th>
@@ -86,24 +89,22 @@
             </table>  
               
       </div>
-    </article>
-<hr>
-</section>
-<h2>Want to Hire Me !</h2>
-    <p><i>**Feel free to Contact me**</i> </p>
+        
+        <div class="contact" id="cform">
+      <center> <h2>Want to Hire Me !</h2></center>
+   <center><p><i>**Feel free to Contact me**</i> </p></center> 
     <form>
-        <div> <label>Name : </label><input  type="text" placeholder="Your Name "></div>
+        <div> <label>Name : </label><input class="name"  type="text" placeholder="Your Name "></div>
         <br>
-        <div> <label>Email : </label><input  type="email" placeholder="Your email "></div> <br>
-        <div> <label>Contact : </label><input  type="tel" placeholder="Contact number "></div> <br>
+        <div> <label>Email : </label><input class="name"  type="email" placeholder="Your email "></div> <br>
+        <div> <label>Mobile:</label><input class="name"  type="tel" placeholder="Contact number "></div> <br>
         <div> <label>Massage : </label><textarea rows="4" cols="19"></textarea></div><br>
-        <button>Submit</button> 
+        <button class="btn">Submit</button> 
     </form>
-<section>
     
-    
-</section>
+</div>
+   
+       
+    </body>
 
-    
-</body>
 </html>
